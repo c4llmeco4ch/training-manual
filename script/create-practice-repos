@@ -78,8 +78,7 @@ generate_repos() {
         # create a new practice repo
         # create_practice_repo "$username"
       # else
-        echo "Skipping $username... "
-      fi
+      echo "Skipping $username... "
     else
       # create a new practice repository
       create_practice_repo "$username"
